@@ -1,0 +1,20 @@
+{
+  "train_frames": 39,
+  "train_rows": 231,
+  "actual_test_targets": 800,
+  "total_images": 1718,
+  "test_rows": 4733,
+  "auxiliary_images": 45,
+  "auxiliary_boxes": 610,
+  "version": "case2-table-state-v1",
+  "image_size": [
+    1280,
+    720
+  ],
+  "timezone": "UTC",
+  "truth": "human counters; historical boxes auxiliary only",
+  "provided_sources": [
+    "HANDOFF_case2_table_state.zip",
+    "case2.zip"
+  ]
+}
