@@ -1,0 +1,3 @@
+frame_id,class_name,x1,y1,x2,y2,confidence,source,object_index,mode,row_id,table_id,distance_px,overlap_obj_frac,assigned,reason
+im_3babbd611502bb2e51b5,handbag,269.67,208.0,303.56,263.98,0.271685,yolo_world_items_crop,1,strict,,,,0.0,False,no_matching_table
+im_6c7318551731a6e075c3,handbag,267.4,208.0,302.74,257.58,0.281478,yolo_world_items_crop,4,strict,,,,0.0,False,no_matching_table
