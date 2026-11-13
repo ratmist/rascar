@@ -1,0 +1,61 @@
+{
+  "model": "yolov8s-worldv2.pt",
+  "weights_path": "yolov8s-worldv2.pt",
+  "weights_sha256": "9b2c17ab6124a913e9b3a5c170617920d91b0f01111a8479da69f00e2cf27792",
+  "model_source": "https://github.com/ultralytics/assets/releases",
+  "model_docs": "https://docs.ultralytics.com/models/yolo-world/",
+  "license_note": "Check terms of original YOLO-World weights and Ultralytics AGPL-3.0 before final submission.",
+  "python": "3.12.10",
+  "torch": "2.7.1+cu118",
+  "ultralytics": "8.3.220",
+  "device": "0",
+  "mode": "all",
+  "passes": [
+    {
+      "name": "general",
+      "prompts": [
+        "handbag",
+        "backpack",
+        "purse",
+        "cell phone",
+        "wallet",
+        "headphones"
+      ],
+      "conf": 0.08,
+      "margin": 0.2
+    },
+    {
+      "name": "laptop",
+      "prompts": [
+        "laptop",
+        "closed laptop",
+        "notebook computer",
+        "open laptop"
+      ],
+      "conf": 0.05,
+      "margin": 0.08
+    }
+  ],
+  "imgsz": 640,
+  "nms_iou": 0.6,
+  "min_overlap": 0.65,
+  "max_area_ratio": 0.55,
+  "center_margin": 0.03,
+  "processed_frames": 1718,
+  "raw_boxes": 899,
+  "after_class_agnostic_nms": 829,
+  "tabletop_candidates": 175,
+  "item_type_counts": {
+    "phone": 107,
+    "bag": 20,
+    "headphones": 22,
+    "laptop": 17,
+    "wallet": 9
+  },
+  "warnings": [
+    "Candidates are NOT validated object detections or per-table counts.",
+    "Bounding-box tabletop filter is a proxy, not a segmentation mask.",
+    "No test labels or manual test corrections used.",
+    "Tune confidence/geometry on training dates before using in a submission."
+  ]
+}
