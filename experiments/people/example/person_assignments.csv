@@ -1,0 +1,3 @@
+frame_id,detection_id,person_confidence,person_x1,person_y1,person_x2,person_y2,anchor_x,anchor_y,table_id,row_id,distance_px,distance_norm,table_overlap_ratio,status
+im_3babbd611502bb2e51b5,d_d8f3d004a2256737c425,0.85,163.1,165.9,279.7,317.0,221.39999999999998,317.0,table_1,q_a36deb97e545d88ec075,0.0,0.0,0.7017510548523207,assigned
+im_3babbd611502bb2e51b5,d_d9ca1b3a856551006585,0.89,942.5,109.4,1106.0,321.0,1024.25,321.0,table_5,q_3dadb980cd798caf6c4f,0.0,0.0,0.674849625898577,assigned

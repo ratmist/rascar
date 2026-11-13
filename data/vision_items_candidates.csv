@@ -1,0 +1,11 @@
+frame_id,class_name,x1,y1,x2,y2,confidence,source
+im_3babbd611502bb2e51b5,phone,203.69,278.06,218.61,293.15,0.339181,yolo_world_items_crop
+im_3babbd611502bb2e51b5,handbag,269.67,208.0,303.56,263.98,0.271685,yolo_world_items_crop
+im_3babbd611502bb2e51b5,handbag,854.0,184.39,923.07,265.28,0.175299,yolo_world_items_crop
+im_4e2ed7b72373178ac2ce,handbag,269.83,208.0,303.24,264.19,0.164796,yolo_world_items_crop
+im_6c7318551731a6e075c3,handbag,267.4,208.0,302.74,257.58,0.281478,yolo_world_items_crop
+im_88fd0d1f0f8d2daba005,handbag,270.04,208.13,303.67,263.87,0.186554,yolo_world_items_crop
+im_8d5647a3179a03517b3e,wallet,943.84,301.06,981.22,320.88,0.310087,yolo_world_items_crop
+im_b184e1d8e33e8f3f90e9,backpack,270.42,208.11,303.86,264.19,0.205098,yolo_world_items_crop
+im_d075014aeb536700e832,headphones,496.2,223.43,533.58,253.92,0.246696,yolo_world_items_crop
+im_f37ded0672c3a357918a,phone,960.68,263.14,988.45,291.84,0.479572,yolo_world_items_crop
